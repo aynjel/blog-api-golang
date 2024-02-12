@@ -1,0 +1,64 @@
+INFO: 2024/02/07 17:59:30 application.go:22: Application started
+INFO: 2024/02/07 17:59:33 application.go:22: Application started
+ERROR: 2024/02/07 17:59:41 user_service.go:12: &{Invalid username 400 bad_request Domain}
+ERROR: 2024/02/07 17:59:41 user_controller.go:32: &{Invalid username 400 bad_request Domain}
+INFO: 2024/02/07 18:01:14 application.go:22: Application started
+ERROR: 2024/02/08 08:08:32 blog_db.go:32: dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/02/08 08:10:15 blog_db.go:32: dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+INFO: 2024/02/08 08:13:05 application.go:22: Application started
+ERROR: 2024/02/08 08:13:41 user_controller.go:76: &{Error when trying to get cookie 500 internal_server_error Controller}
+INFO: 2024/02/08 08:14:39 application.go:22: Application started
+ERROR: 2024/02/08 08:14:46 user_controller.go:53: &{Error when trying to prepare get user by username and email statement 500 internal_server_error Data Access}
+ERROR: 2024/02/08 08:15:46 user_dao.go:50: sql: no rows in result set
+ERROR: 2024/02/08 08:15:46 user_controller.go:53: &{User not found 500 internal_server_error Data Access}
+INFO: 2024/02/08 08:19:57 application.go:22: Application started
+ERROR: 2024/02/08 08:22:39 user_dao.go:50: sql: no rows in result set
+ERROR: 2024/02/08 08:22:39 user_controller.go:53: &{User not found 500 internal_server_error Data Access}
+ERROR: 2024/02/08 08:23:45 user_controller.go:79: &{Error when trying to get cookie 500 internal_server_error Controller}
+ERROR: 2024/02/08 09:00:47 user_controller.go:79: &{Error when trying to get cookie 500 internal_server_error Controller}
+INFO: 2024/02/08 09:14:16 application.go:22: Application started
+INFO: 2024/02/08 09:14:18 application.go:22: Application started
+INFO: 2024/02/08 09:14:46 application.go:22: Application started
+INFO: 2024/02/08 09:14:58 application.go:22: Application started
+INFO: 2024/02/08 09:15:04 application.go:22: Application started
+INFO: 2024/02/08 09:41:15 application.go:22: Application started
+INFO: 2024/02/08 09:42:12 application.go:22: Application started
+INFO: 2024/02/08 09:42:45 application.go:22: Application started
+INFO: 2024/02/08 09:43:06 application.go:22: Application started
+INFO: 2024/02/08 09:45:52 application.go:22: Application started
+INFO: 2024/02/08 09:46:55 application.go:22: Application started
+INFO: 2024/02/08 09:47:46 application.go:22: Application started
+INFO: 2024/02/08 09:49:04 application.go:22: Application started
+ERROR: 2024/02/08 09:50:00 user_controller.go:79: &{Error when trying to get cookie 500 internal_server_error Controller}
+INFO: 2024/02/08 09:54:44 application.go:22: Application started
+INFO: 2024/02/08 09:58:15 application.go:22: Application started
+INFO: 2024/02/08 10:03:20 application.go:22: Application started
+INFO: 2024/02/08 14:55:57 application.go:22: Application started
+INFO: 2024/02/08 14:55:59 application.go:22: Application started
+INFO: 2024/02/08 14:57:28 application.go:22: Application started
+INFO: 2024/02/08 15:02:16 application.go:22: Application started
+INFO: 2024/02/08 15:03:30 application.go:22: Application started
+INFO: 2024/02/08 15:03:42 application.go:22: Application started
+INFO: 2024/02/08 15:05:26 application.go:22: Application started
+INFO: 2024/02/08 15:08:50 application.go:22: Application started
+ERROR: 2024/02/08 15:09:18 user_dao.go:50: sql: no rows in result set
+ERROR: 2024/02/08 15:09:18 user_controller.go:53: &{User not found 500 internal_server_error Data Access}
+ERROR: 2024/02/08 15:09:32 user_controller.go:79: &{Error when trying to get cookie 500 internal_server_error Controller}
+ERROR: 2024/02/08 15:21:18 user_dao.go:28: Error 1062 (23000): Duplicate entry 'testusername' for key 'users.username'
+ERROR: 2024/02/08 15:21:18 user_controller.go:31: &{Error when trying to save user 500 internal_server_error Data Access}
+ERROR: 2024/02/08 15:27:00 user_dao.go:28: Error 1062 (23000): Duplicate entry 'testusername' for key 'users.username'
+ERROR: 2024/02/08 15:27:00 user_controller.go:31: &{Error when trying to save user 500 internal_server_error Data Access}
+ERROR: 2024/02/08 15:27:00 user_dao.go:28: Error 1062 (23000): Duplicate entry 'testusername' for key 'users.username'
+ERROR: 2024/02/08 15:27:00 user_controller.go:31: &{Error when trying to save user 500 internal_server_error Data Access}
+ERROR: 2024/02/08 15:27:00 user_dao.go:28: Error 1062 (23000): Duplicate entry 'testusername' for key 'users.username'
+ERROR: 2024/02/08 15:27:00 user_controller.go:31: &{Error when trying to save user 500 internal_server_error Data Access}
+ERROR: 2024/02/08 15:27:00 user_dao.go:28: Error 1062 (23000): Duplicate entry 'testusername' for key 'users.username'
+ERROR: 2024/02/08 15:27:00 user_controller.go:31: &{Error when trying to save user 500 internal_server_error Data Access}
+ERROR: 2024/02/08 15:27:01 user_dao.go:28: Error 1062 (23000): Duplicate entry 'testusername' for key 'users.username'
+ERROR: 2024/02/08 15:27:01 user_controller.go:31: &{Error when trying to save user 500 internal_server_error Data Access}
+INFO: 2024/02/08 16:08:50 application.go:22: Application started
+INFO: 2024/02/08 16:10:53 application.go:22: Application started
+INFO: 2024/02/08 17:13:52 application.go:22: Application started
+INFO: 2024/02/08 17:13:56 application.go:22: Application started
+INFO: 2024/02/08 17:14:21 application.go:22: Application started
+INFO: 2024/02/08 17:14:24 application.go:22: Application started
